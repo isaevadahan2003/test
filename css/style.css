@@ -1,0 +1,21 @@
+.content{
+    height: 100vh;
+    display: flex;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.layer1{
+    position: absolute;
+    width: 1250px;
+    height: 51px;
+    left: 90px;
+    top: 12px;
+    background: white;
+    backdrop-filter: blur(7.5px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 75px;
+}
+
